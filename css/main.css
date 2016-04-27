@@ -1,0 +1,66 @@
+
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd{margin:0;padding:0;}
+body{background-color:#009}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;border:none; background:none;width:0}
+textarea{resize:none;}
+a{text-decoration:none; color:#656565;display:inline-block}
+
+/*清浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+
+.outer{width:15rem;height:15rem;border:solid red 1px;margin:2rem auto;position:relative}
+.field{width:15rem;height:15rem;}
+.handler img{height:2.5rem;width:2.5rem;position:relative;left:0.25rem;top:0.25rem}
+.handler div{height:3rem;width:3rem;}
+.direction-top{position:absolute;top:18.5rem;left:6.5rem}
+.direction-right{position:absolute;top:21rem;left:9rem}
+.direction-left{position:absolute;top:21rem;left:4rem}
+.direction-bottom{position:absolute;top:23.5rem;left:6.5rem}
+
+.snakeList{position:relative;width:15rem;height:15rem;}
+.snake{height:1rem;width:1rem;background-color:yellow;position:absolute;border-radius: 1rem}
+.food{height:1rem;width:1rem;background-color:red;position:absolute;border-radius: 1rem}
+#canvas{
+    display:none;height:15rem;width:15rem;position:absolute;left:0;top:0;color:#f00;
+    z-index:100;font:2rem/15rem 'Verdana';text-align:center;opacity:0.05;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
